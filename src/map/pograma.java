@@ -34,5 +34,23 @@ public class pograma {
         }
 
 
+        // logica de um ex
+
+
+//        String[] fields = line.split(",");
+//        String name = fields[0];
+//        int count = Integer.parseInt(fields[1]);
+//
+//        if (votes.containsKey(name)) {
+//            int votesSoFar = votes.get(name); // esse get pega os votos que ele já possui
+//            votes.put(name, count + votesSoFar); // se o candidato ja existir ele vai pegar os votos e vai somar com os já existentes
+//        }
+//        else {
+//            votes.put(name, count); // se nao, vai adicionar um novo
+//        }
+
+
+
+
     }
 }
