@@ -25,6 +25,8 @@ public class Product {
         this.price = price;
     }
 
+    // aula predicate
+
     public static boolean staticProductPredicate(Product p) {
         return p.getPrice() >= 100.0;
     }
@@ -32,6 +34,27 @@ public class Product {
     public boolean nonStaticProductPredicate() {
         return price >= 100.0;
     }
+
+    // aula consumer
+
+    public static void staticPriceUpdate(Product p) {
+        p.setPrice(p.getPrice() * 1.1);
+    }
+
+    public void nonStaticPriceUpdate() {
+       price = price * 1.1;
+    }
+
+    // aula function
+
+    public static String staticUpperCaseName(Product p) {
+        return p.getName().toUpperCase();
+    }
+
+    public String nonStaticUpperCaseName() {
+        return name.toUpperCase();
+    }
+
 
     @Override
     public String toString() {
