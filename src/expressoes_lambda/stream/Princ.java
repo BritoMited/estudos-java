@@ -29,6 +29,9 @@ public class Princ {
 
         Stream<Long> st4 = Stream.iterate(new long[]{ 0L, 1L }, Princ::novoLong).map(p -> p[0]);
 
+        // seed the initial element
+        // f a function to be applied to the previous element to produce a new element
+
         // escrevendo a função
 
     }
