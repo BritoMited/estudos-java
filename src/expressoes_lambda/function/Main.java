@@ -18,13 +18,13 @@ public class Main {
         list.add(new Product("Tablet", 350.50));
         list.add(new Product("HD Case", 80.90));
 
-        // a lista foi transformada em stream, aplicado o map que aplica a func a cada elemento
-        // depois ele pega o restultado desse map e transforma para list novamente/
+        // a lista foi transformada em stream, aplicado o generics_set_map.intro.map que aplica a func a cada elemento
+        // depois ele pega o restultado desse generics_set_map.intro.map e transforma para list novamente/
         List<String> names = list.stream().map(new UpperCaseName()).collect(Collectors.toList());
         // implementação da interface
 
-        // o map aplica uma função a cada elemento da lista
-        // o map so funciona em stream, e por conta de aplicar uma function
+        // o generics_set_map.intro.map aplica uma função a cada elemento da lista
+        // o generics_set_map.intro.map so funciona em stream, e por conta de aplicar uma function
         // ela obrigatoriamente vai gerar uma outra lista, que nesse caso é de string
         // por isso na criação do names
 

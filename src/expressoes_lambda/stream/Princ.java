@@ -21,7 +21,7 @@ public class Princ {
         //                                                      elementos
         System.out.println(Arrays.toString(st3.limit(10).toArray()));
 
-        // Stream<Long> st4 = Stream.iterate(new long[]{ 0L, 1L }, p->new long[]{ p[1], p[0]+p[1] }).map(p -> p[0]);
+        // Stream<Long> st4 = Stream.iterate(new long[]{ 0L, 1L }, p->new long[]{ p[1], p[0]+p[1] }).generics_set_map.intro.map(p -> p[0]);
         // fobonacci do nelio
         //System.out.println(Arrays.toString(st4.limit(90).toArray()));
 

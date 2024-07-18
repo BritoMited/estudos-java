@@ -21,7 +21,7 @@ public class PipeLine {
         // ja que utilizei a operação terminal toArray
         List<Integer> lista = st2.collect(Collectors.toList());
 
-        // stream é basicamente um fluxo de dados, e o map passa por cada um desses
+        // stream é basicamente um fluxo de dados, e o generics_set_map.intro.map passa por cada um desses
         // elementos aplicando uma função que gera um novo valor, em uma nova stream de dados
 
         BinaryOperator<Integer> toma = (x, y) -> x + y;

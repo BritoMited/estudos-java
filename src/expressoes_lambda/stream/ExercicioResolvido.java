@@ -22,7 +22,7 @@ public class ExercicioResolvido {
                 .map(p -> p.getPrice())
                 .reduce(0.0, (x, y) -> x + y) / list.size();
 
-        // o map gera uma stream totalmente nova, que entao os proximos comandos sao trabalhados em cima disso
+        // o generics_set_map.intro.map gera uma stream totalmente nova, que entao os proximos comandos sao trabalhados em cima disso
 
         System.out.println("a media de preços " + String.format("%.2f", media));
 
