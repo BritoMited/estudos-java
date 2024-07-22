@@ -1,7 +1,6 @@
 package db.aplication;
 
 import db.DB;
-import db.DbException;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -9,7 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
-public class Program {
+public class Select {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
